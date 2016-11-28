@@ -1,3 +1,5 @@
+
+
 #----------------------------------------------------------------------------
 # Ignore these files when commiting to a git repository.
 #
@@ -39,6 +41,7 @@ db/*.sqlite3
 /doc/app/
 /doc/features.html
 /doc/specs.html
+/locales/secret.yml
 /public/cache
 /public/stylesheets/compiled
 /public/system/*
@@ -82,3 +85,6 @@ pickle-email-*.html
 
 # tilde files are usually backup files from a text editor
 *~
+
+# Ignore application configuration
+/config/application.yml

@@ -1,3 +1,4 @@
+# This is to check for crappy code
 AllCops:
   RunRailsCops: true
   Include:
